@@ -9,11 +9,11 @@ image:
 
 tasks:
   - before: | 
+      doppler configure set token $DOPPLER_LOCAL_TOKEN
+      doppler setup --project agility-game-kener --config dev
       mkdir -p ./static/kener && export PUBLIC_KENER_FOLDER=/workspace/kener/static/kener
       export NODE_ENV=production
       export PORT=3000
-      export GH_TOKEN=
-      export API_TOKEN=
       export API_IP=127.0.0.1
       export MONITOR_YAML_PATH=/config/monitors.yaml
       export SITE_YAML_PATH=/config/site.yaml
