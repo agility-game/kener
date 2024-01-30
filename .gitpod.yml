@@ -4,6 +4,9 @@
 
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 
+image:
+  file: .gitpod.Dockerfile
+
 tasks:
   - before: | 
       mkdir -p ./static/kener && export PUBLIC_KENER_FOLDER=/workspace/kener/static/kener
