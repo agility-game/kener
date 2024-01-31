@@ -12,7 +12,7 @@ image:
 tasks:
   - before: | 
       doppler configure set token $DOPPLER_LOCAL_TOKEN
-      doppler setup --project agility-game-kener --config dev --mount .env
+      doppler setup --project agility-game-kener --config dev
       mkdir -p ./static/kener
       env:
         PUBLIC_KENER_FOLDER=/workspace/kener/static/kener
@@ -24,6 +24,6 @@ tasks:
   - init: |
       npm install -g npm@10.4.0
       npm install
-#      doppler run --mount .env -- npm run build 
+      doppler run --mount .env -- npm run build 
 
 
