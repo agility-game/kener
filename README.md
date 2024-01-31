@@ -6,6 +6,8 @@
 ![Status Badge](https://agility-game-kener.onrender.com/badge/agility-game-avocado-bacon/status)&nbsp;![Uptime Badge](https://agility-game-kener.onrender.com/badge/agility-game-avocado-bacon/uptime)<br/>
 ![Status Badge](https://agility-game-kener.onrender.com/badge/agility-game-pineapple-chicken/status)&nbsp;![Uptime Badge](https://agility-game-kener.onrender.com/badge/agility-game-pineapple-chicken/uptime)
 
+**NOTE**: The above statusses are polling the kener website at https://agility-game-kener.onrender.com
+
 <p align="center">
 	<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/rajnandan1/kener?label=Star%20Repo&style=social">
 	<a href="https://github.com/ivbeg/awesome-status-pages"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome status page" /></a>
