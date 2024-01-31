@@ -25,6 +25,8 @@ $ doppler run -- npm run kener
 
 #### 👉 Visit a live server [here](https://kener.ing)
 
+#### 👉 Visit our live server [here](https://agility-game-kener.onrender.com)
+
 #### 👉 Read the documentation [here](https://kener.ing/docs) 
 
 #### 👉 Read the documentation on Secrets Management [here](https://github.com/vanHeemstraSystems/doppler)
