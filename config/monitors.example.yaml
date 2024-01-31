@@ -7,11 +7,18 @@
     url: https://www.google.com/webhp
 - name: "Agility Game (Avocado Bacon)"
   description: Play the game of agility.
-  tag: "agility-game"
+  tag: "agility-game-avocado-bacon"
   image: "/agility-game.png"
   api:
     method: GET
     url: https://avocado-bacon.agility-game.com
+- name: "Agility Game (Pineapple Chicken)"
+  description: Play the game of agility.
+  tag: "agility-game-pineapple-chicken"
+  image: "/agility-game.png"
+  api:
+    method: GET
+    url: https://pineapple-chicken.agility-game.com    
 # - name: Svelte Website
 #  description: Cybernetically enhanced web apps
 #  tag: "svelte-website"
