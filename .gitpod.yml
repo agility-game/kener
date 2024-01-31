@@ -21,4 +21,4 @@ tasks:
       export API_IP=127.0.0.1
       export MONITOR_YAML_PATH=/config/monitors.yaml
       export SITE_YAML_PATH=/config/site.yaml
-      doppler run -- npm run build
+      doppler run -- npm run kener:build
