@@ -4,13 +4,14 @@
 
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 
+# In doppler.yaml file we setup --project agility-game-kener --config dev
+
 image:
   file: .gitpod.Dockerfile
 
 tasks:
   - before: | 
       doppler configure set token $DOPPLER_LOCAL_TOKEN
-      doppler setup --project agility-game-kener --config dev
       mkdir -p ./static/kener
       env:
         PUBLIC_KENER_FOLDER=/workspace/kener/static/kener
