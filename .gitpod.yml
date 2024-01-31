@@ -4,7 +4,7 @@
 
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 
-# In doppler.yaml file we setup --project agility-game-kener --config dev
+# In doppler.yaml file we ALSO setup --project agility-game-kener --config dev. TO DO: fix duplication
 
 image:
   file: .gitpod.Dockerfile
@@ -12,6 +12,7 @@ image:
 tasks:
   - before: | 
       doppler configure set token $DOPPLER_LOCAL_TOKEN
+      doppler setup --project agility-game-kener --config dev --mount .env
       mkdir -p ./static/kener
       env:
         PUBLIC_KENER_FOLDER=/workspace/kener/static/kener
