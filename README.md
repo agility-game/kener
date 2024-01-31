@@ -9,7 +9,11 @@
 	<a href="https://github.com/ivbeg/awesome-status-pages"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome status page" /></a>
 </p>
 
-In short, run from the root of the repository as follows:
+In short, 
+- copy ``````.env.example`````` to ``````.env`````` and configure
+- copy ```config/monitor.example.yaml`````` to ```config/monitor.yaml`````` and configure
+- copy ```config/site.example.yaml`````` to ```config/site.yaml and`````` configure
+- run from the root of the repository as follows:
 
 ```
 $ doppler run --mount .env -- npm run build
