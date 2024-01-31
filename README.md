@@ -3,8 +3,8 @@
 	<img src="https://kener.ing/ss.png" width="100%" height="auto" alt="kener example illustration">
 </p>
 
-![Status Badge](https://agility-game-kener.onrender.com/badge/agility-game-avocado-bacon/status)![Uptime Badge](https://agility-game-kener.onrender.com/badge/agility-game-avocado-bacon/uptime)<br/>
-![Status Badge](https://agility-game-kener.onrender.com/badge/agility-game-pineapple-chicken/status)![Uptime Badge](https://agility-game-kener.onrender.com/badge/agility-game-pineapple-chicken/uptime)
+![Status Badge](https://agility-game-kener.onrender.com/badge/agility-game-avocado-bacon/status)<&nbsp;>![Uptime Badge](https://agility-game-kener.onrender.com/badge/agility-game-avocado-bacon/uptime)<br/>
+![Status Badge](https://agility-game-kener.onrender.com/badge/agility-game-pineapple-chicken/status)<&nbsp;>![Uptime Badge](https://agility-game-kener.onrender.com/badge/agility-game-pineapple-chicken/uptime)
 
 <p align="center">
 	<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/rajnandan1/kener?label=Star%20Repo&style=social">
