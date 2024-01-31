@@ -227,7 +227,7 @@ const Startup = async () => {
             fs.writeFileSync(monitor.path0Day, JSON.stringify({}));
         }
 
-        console.log("Staring One Minute Cron for ", monitor.path0Day);
+        console.log("Starting One Minute Cron for ", monitor.path0Day);
         await Minuter(envSecrets, monitor, site.github);
     }
 
@@ -240,7 +240,7 @@ const Startup = async () => {
         if (monitor.cron !== undefined && monitor.cron !== null) {
             cronExpession = monitor.cron;
         }
-        console.log("Staring " + cronExpession + " Cron for ", monitor.name);
+        console.log("Starting " + cronExpession + " Cron for ", monitor.name);
         Cron(cronExpession, async () => {
             await Minuter(envSecrets, monitor, site.github);
         });
