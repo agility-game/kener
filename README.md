@@ -10,7 +10,7 @@
 </p>
 
 In short, 
-- copy ``````.env.example``` to ```.env``` and configure
+- copy ```.env.example``` to ```.env``` and configure
 - copy ```config/monitor.example.yaml``` to ```config/monitor.yaml``` and configure
 - copy ```config/site.example.yaml``` to ```config/site.yaml and``` configure
 - run from the root of the repository as follows:
