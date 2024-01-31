@@ -20,6 +20,6 @@ tasks:
       export NODE_ENV=production
       export PORT=3000
       export API_IP=127.0.0.1
-      export MONITOR_YAML_PATH=config/monitors.yaml
-      export SITE_YAML_PATH=config/site.yaml
+      export MONITOR_YAML_PATH=./config/monitors.yaml
+      export SITE_YAML_PATH=./config/site.yaml
       doppler run -- npm run kener:build
