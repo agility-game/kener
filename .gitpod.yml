@@ -21,6 +21,6 @@ tasks:
         SITE_YAML_PATH=/config/site.yaml
   - init: |
       npm install
-      doppler run -- npm run build
+      doppler run --mount .env -- npm run build
 
 
