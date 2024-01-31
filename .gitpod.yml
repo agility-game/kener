@@ -20,6 +20,7 @@ tasks:
         MONITOR_YAML_PATH=/config/monitors.yaml
         SITE_YAML_PATH=/config/site.yaml
   - init: |
+      npm install -g npm@10.4.0
       npm install
 #      doppler run --mount .env -- npm run build 
 
