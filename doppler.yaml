@@ -1,0 +1,3 @@
+setup:
+  - project: agility-game-kener
+  - config: dev
