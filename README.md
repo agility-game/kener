@@ -10,13 +10,13 @@
 </p>
 
 In short, 
-- copy ``````.env.example`````` to ``````.env`````` and configure
-- copy ```config/monitor.example.yaml`````` to ```config/monitor.yaml`````` and configure
-- copy ```config/site.example.yaml`````` to ```config/site.yaml and`````` configure
+- copy ``````.env.example``` to ```.env``` and configure
+- copy ```config/monitor.example.yaml``` to ```config/monitor.yaml``` and configure
+- copy ```config/site.example.yaml``` to ```config/site.yaml and``` configure
 - run from the root of the repository as follows:
 
 ```
-$ doppler run --mount .env -- npm run build
+$ doppler run -- npm run kener
 ```
 
 #### 👉 Visit a live server [here](https://kener.ing)
