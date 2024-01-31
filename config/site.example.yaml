@@ -26,7 +26,7 @@ nav:
     url: "https://github.com/agility-game/kener"
 hero:
   title: Agility Game Status Page
-  subtitle: Let our users know what's going on.
+  subtitle: Let our users know what is going on.
 footerHTML: |
   Made using 
   <a href="https://github.com/rajnandan1/kener" target="_blank" rel="noreferrer" class="font-medium underline underline-offset-4">
