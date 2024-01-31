@@ -23,10 +23,10 @@ nav:
   - name: "Documentation"
     url: "/docs"
   - name: "Github"
-    url: "https://github.com/rajnandan1/kener"
+    url: "https://github.com/agility-game/kener"
 hero:
-  title: Kener is a Open-Source Status Page System
-  subtitle: Let your users know what's going on.
+  title: Agility Game Status Page
+  subtitle: Let our users know what's going on.
 footerHTML: |
   Made using 
   <a href="https://github.com/rajnandan1/kener" target="_blank" rel="noreferrer" class="font-medium underline underline-offset-4">

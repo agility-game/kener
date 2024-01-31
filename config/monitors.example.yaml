@@ -5,7 +5,7 @@
   api:
     method: GET
     url: https://www.google.com/webhp
-- name: "Agility Game (instance: Avocado Bacon)"
+- name: "Agility Game (Avocado Bacon)"
   description: Play the game of agility.
   tag: "agility-game"
   image: "/agility-game.png"
