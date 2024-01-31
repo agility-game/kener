@@ -5,22 +5,29 @@
   api:
     method: GET
     url: https://www.google.com/webhp
-- name: Svelte Website
-  description: Cybernetically enhanced web apps
-  tag: "svelte-website"
+- name: Agility Game (instance: Avocado Bacon)
+  description: Play the game of agility.
+  tag: "agility-game"
+  image: "/agility-game.png"
   api:
     method: GET
-    url: https://svelte.dev/
-  image: "/svelte.svg"
-- name: Earth
-  description: Our blue planet
-  tag: "earth"
-  defaultStatus: "UP"
-  image: "/earth.png"
-- name: Frogment
-  description: A free openAPI spec editor and linter that breaks down your spec into fragments to make editing easier and more intuitive. Visit https://www.frogment.com
-  tag: "frogment"
-  image: "/frogment.png"
-  api:
-    method: GET
-    url: https://www.frogment.com
+    url: https://avocado-bacon.agility-game.com
+# - name: Svelte Website
+#  description: Cybernetically enhanced web apps
+#  tag: "svelte-website"
+#  api:
+#    method: GET
+#    url: https://svelte.dev/
+#  image: "/svelte.svg"
+#- name: Earth
+#  description: Our blue planet
+#  tag: "earth"
+#  defaultStatus: "UP"
+#  image: "/earth.png"
+#- name: Frogment
+#  description: A free openAPI spec editor and linter that breaks down your spec into fragments to make editing easier and more intuitive. Visit https://www.frogment.com
+#  tag: "frogment"
+#  image: "/frogment.png"
+#  api:
+#    method: GET
+#    url: https://www.frogment.com
